@@ -13,6 +13,18 @@ def get_synonyms(sentence):
 def main():
 
   filename = 'does_sun_exposure_cause_skin_cancer.tsv'
+
+  groups = ['sun','skin','cancer']
+
+  synonyms={}
+
+  synonyms['sun']=['sun','sunlight','uv','uva','uvb','sunbathers','sunburns',
+          'sunburn','exposure','sunbather','indoor','radiation','outdoors','outside',
+          'exposed','unexposed','temperature','light','solarium']
+  synonyms['skin']=['skinned','burn','melanoma','melanomas', 'damages','causes',
+          'exposure','this','skin']
+  synonyms['cancer']=['cancer','melanoma','melanomas','cancerous','carcinoma',
+          'health problem','this']
   q = 'does sun exposure cause skin cancer'
   imp_nouns = ['sun', 'skin', 'cancer']
   syn = get_synonyms(q)
@@ -30,20 +42,27 @@ def main():
     (document, relevance) = line.split('\t')
     relevance = relevance.strip()
     document = preprocess_doc(document)
-    nv = mylib.get_nouns_and_verbs(document)
+    #nv = mylib.get_nouns_and_verbs(document)
     #document = utils.simple_preprocess(document)
-    print q_nv
-    print nv
+    #print q_nv
+    #print nv
     #sim = mylib.jaccard_similarity(q_nv, nv)
-    sim = len(set.intersection(set(q_nv),set(nv)))
-    if sim > 2:
+    #sim = len(set.intersection(set(q_nv),set(nv)))
+    sim=0
+    for word in groups:
+      for syn in synonyms[word]:
+        if syn in document:
+          sim = sim + 1
+          print syn
+          break
+    if sim >=3:
       pred = "relevant"
     else:
       pred = "irrelevant"
     if pred == relevance:
       num_correct = num_correct + 1
     num_samples = num_samples + 1
-    print  document, "Pred=",pred, "Truth=", relevance, sim
+    print  num_samples, document, "Pred=",pred, "Truth=", relevance, sim
     print "-"*30
   accuracy = num_correct / float(num_samples)
   print accuracy
