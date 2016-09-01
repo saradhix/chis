@@ -1,7 +1,23 @@
 import nltk
 from nltk.corpus import stopwords
 
-
+my_stop_words=['a','an','the','for','and','or','of','who','they','may',
+        'be','in','as','s','is']
+def get_nouns_and_adjs(sentence):
+  pos_result = nltk.pos_tag(nltk.word_tokenize(sentence))
+  result = []
+  #print pos_result
+  for t in pos_result:
+    if t in stopwords.words("english"):
+      continue
+    if t in my_stop_words:
+      continue
+    print str(t[0]),str(t[1])
+    if str(t[1]).startswith('NN'):
+      result.append(t[0])
+    if str(t[1]).startswith('JJ'):
+      result.append(t[0])
+  return result
 def get_nouns_and_verbs(sentence):
   pos_result = nltk.pos_tag(nltk.word_tokenize(sentence))
   result = []
@@ -9,9 +25,12 @@ def get_nouns_and_verbs(sentence):
   for t in pos_result:
     if t in stopwords.words("english"):
       continue
+    #print str(t[0]),str(t[1])
     if str(t[1]).startswith('NN'):
       result.append(t[0])
     if str(t[1]).startswith('VB'):
+      result.append(t[0])
+    if str(t[1]).startswith('JJ'):
       result.append(t[0])
   return result
 
