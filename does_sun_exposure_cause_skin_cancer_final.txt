@@ -1,0 +1,341 @@
+There is the inconvenient truth that skin cancer lesions frequently occur on parts of the body least exposed to sunlight.	relevant	oppose
+"Skin cancer lesions often occur on the soles of the feet, under the nails, on the genitals and inside the nose and mouth."	relevant	oppose
+"The evidence clearly shows that those who spend more time in the sun (without burning) have less risk of melanoma, the deadliest form of skin cancer."	relevant	oppose
+"Rates of melanoma, the deadliest form of skin cancer, have been rising for at least the last three decades, and this increase has been largely blamed on exposure to ultraviolet (UV) light from the sun."	relevant	support
+"Research published in the British Journal of Dermatology shows that the sun is likely nothing more than a scapegoat in the development of melanoma, and the sharp increase may actually be ""an artifact caused by diagnostic drift."""	relevant	oppose
+"Melanoma Increases Due to Benign Disease, Not Sunlight."	relevant	oppose
+"The researchers revealed that, rather than being fueled by increasing exposure to sunlight as is commonly suggested, the increased incidence was almost entirely due to minimal, stage 1 disease."	relevant	oppose
+"The researchers noted that the large increase in reported skin cancer incidence is likely to be due to diagnostic drift, which classifies benign lesions as stage 1 melanoma."	irrelevant	neutral
+"People are being diagnosed with melanoma skin cancer even when they have only a minimal, non-cancerous lesion, and these diagnoses appear to be skewing disease rates significantly."	irrelevant	neutral
+"Adding even more credence to the growing body of evidence showing sun exposure is not the primary cause of melanoma, the researchers noted that the distribution of the lesions reported did not correspond to the sites of lesions caused by sun exposure."	relevant	oppose
+"The researchers concluded: ""These findings should lead to  re-evaluation of the role of sun radiation and recommendations for protection from it, as well as the need for a new direction in the search for the cause of melanoma."""	relevant	neutral
+"Despite all the bad press linking sun exposure to skin cancer, there's almost no evidence at all to support it."	relevant	oppose
+"Over the years, several studies have confirmed that appropriate sun exposure actually helps prevent skin cancer."	relevant	oppose
+"In fact, melanoma occurrence has been found to decrease with greater sun exposure, and can be increased by sunscreens."	relevant	oppose
+One of the most important facts you should know is that an epidemic of the skin cancer has in fact broken out among indoor workers.	relevant	oppose
+"Indoor workers get three to nine times LESS solar UV exposure than outdoor workers get, yet only indoor workers have increasing rates of melanoma -- and the rates have been increasing since before 1940."	relevant	oppose
+"There are two primary types of UV rays from sunlight, the vitamin-D-producing UVB rays and the skin-damaging UVA light."	irrelevant	neutral
+"Both UVA and UVB can cause tanning and burning, although UVB does so far more rapidly."	irrelevant	neutral
+"UVA, however, penetrates your skin more deeply than UVB, and may be a much more important factor in photoaging, wrinkles and skin cancers."	irrelevant	oppose
+"A study in Medical Hypotheses suggested that indoor workers may have increased rates of melanoma because they're exposed to sunlight through windows, and only UVA light, unlike UVB, can pass through window glass."	relevant	support
+"At the same time, these indoor workers are missing out on exposure to the beneficial UVB rays, and have lower levels of vitamin D."	irrelevant	neutral
+"Researchers wrote: ""We agree that intense, intermittent outdoor UV overexposures and sunburns initiate cutaneous malignant melanoma; "". "	relevant	support
+"UVB appears to be protective against melanoma -- or rather, the vitamin D your body produces in response to UVB radiation is protective against skin cancer."	relevant	oppose
+"As written in The Lancet: ""Paradoxically, outdoor workers have a decreased risk of melanoma compared with indoor workers, suggesting that chronic sunlight exposure can have a protective effect."""	relevant	oppose
+"Skin cancer is the most prevalent form of all cancers in the US, and the number of cases continues to rise."	irrelevant	neutral
+skin cancer is due to the uncontrolled growth of abnormal skin cells.	irrelevant	neutral
+"While healthy cells grow and divide in an orderly way, skin cancer cells grow and divide in a rapid, haphazard manner."	irrelevant	neutral
+"Ultraviolet (UV) radiation from the sun is the number one cause of skin cancer, but UV light from tanning beds is just as harmful."	relevant	support
+Exposure to sunlight during the winter months puts you at the same risk for skin cancer as exposure during the summertime.	irrelevant	neutral
+"Cumulative sun exposure causes mainly basal cell and squamous cell skin cancer, while episodes of severe blistering sunburns, usually before age 18, can cause melanoma later in life."	relevant	support
+"Other less common causes for skin cancer are repeated X-ray exposure, scars from burns or disease, and occupational exposure to certain chemicals."	irrelevant	neutral
+"Although anyone can get skin cancer, the risk is greatest for people who have fair or freckled skin that burns easily, light eyes and blond or red hair."	irrelevant	neutral
+"Darker-skinned individuals are also susceptible to all types of skin cancer, although their risk is lower."	irrelevant	neutral
+"Aside from complexion, other risk factors for skin cancer include having a family history or personal history of skin cancer, having an outdoor job, and living in a sunny climate."	relevant	support
+A history of severe sunburns and an abundance of large and irregularly shaped moles are risk factors unique to melanoma.	relevant	support
+"The most common warning sign of skin cancer is a change on the skin, typically a new mole or skin lesion or a change in an existing mole."	irrelevant	neutral
+"Nothing can completely undo sun damage, although the skin can sometimes repair itself."	irrelevant	neutral
+There is convincing evidence that sunlight causes skin cancer.	relevant	support
+Skin cancer can be treated and cured without serious consequences.	irrelevant	neutral
+In some cases skin cancer can be life-threatening if not diagnosed in time.	irrelevant	neutral
+Skin cancer is an occupational concern for people who work under the sun.	relevant	support
+"The risk of skin cancer however, may be reduced through awareness of the problem, and by taking measures to prevent exposure to sunlight."	relevant	support
+"Different types of radiation in sunlight include visible light, ultraviolet (UV) radiation."	irrelevant	neutral
+"Except in extreme situations, neither visible light nor infrared radiation from sunlight causes health problems."	relevant	oppose
+"However, ultraviolet (UV) radiation can cause harmful effects to the skin."	relevant	support
+There are three basic types of ultraviolet radiation: UVA (long-wave UV) UVB (sunburn UV) UVC (short-wave UV).	irrelevant	neutral
+Damage can result in sunburn increased rate of aging of the skin skin cancer.	relevant	support
+Repeated exposure to the sun's ultraviolet radiation eventually causes skin damage similar to the aging process.	irrelevant	neutral
+"Patches of skin become thin and less elastic, and develop blemishes, sun freckles, and wrinkles."	irrelevant	neutral
+"The skin changes may take many years of sun exposure but when they occur, the damage is irreversible."	irrelevant	neutral
+"If exposure to sunlight continues for several years, the damaged skin has an increased chance of developing one of the forms of skin cancer."	relevant	support
+Exposure to ultraviolet radiation increases the risk of developing these cancers (although it may not be the only cause of the disease).	relevant	support
+"While the exact relationship is not 100% defined, it appears that intermittent (occasional) sun exposure and exposure during childhood and adolescence are likely important predictors for basal cell carcinoma, and cutaneous malignant melanoma."	relevant	support
+"High levels of chronic sun exposure, such as working outdoors, is more often associated with squamous cell tumours."	relevant	support
+"Most skin cancer occurs in areas of skin most heavily exposed to sunlight (ears, forehead, arms, etc)."	relevant	support
+Skin cancer among people who are sensitive to sunlight is more common in regions with stronger sunlight.	relevant	support
+People with genetic diseases that make them more sensitive to sunlight have a greater chance of developing skin cancer.	relevant	support
+Studies show that ultraviolet radiation similar to sunlight causes skin cancer in animals.	relevant	support
+"Three different types of skin cancer are linked to sunlight exposure: basal cell cancer, squamous cell cancer, malignant melanoma."	relevant	support
+Basal cell cancer is the most common of all cancers in North America and Europe.	irrelevant	neutral
+"Basal cell skin cancer  is usually found in areas of the skin exposed to sunlight, but sometimes occurs in other areas as well."	relevant	support
+Squamous cell skin cancer occurs most frequently on the skin exposed to sunlight over long periods of time.	relevant	support
+"Squamous cell skin cancer tends to develop where maximum exposure to radiation occurs - forehead, cheeks, nose, lower lip, and tops of the ears."	relevant	support
+Squamous cell skin cancer also usually develops in areas where the skin has been damaged by the sun - areas with blemishes or sun freckles.	relevant	support
+"Malignant melanoma, although rarer, is the most serious of the skin cancers."	irrelevant	neutral
+"Malignant melanoma often shows itself as a mole or pigment spot that begins to bleed, grow, or change its colour, shape or texture."	irrelevant	neutral
+Skin cancer usually spreads if not treated in the early stage.	irrelevant	neutral
+The exact nature of the relationship between malignant melanoma and sun light is not completely clear.	relevant	neutral
+"However, brief intense exposure (intermittent exposure) to strong sunlight appears to increase the risk of malignant melanoma in people who are not used to strong sunlight."	relevant	support
+"If caught early, malignant melanoma can be treated and cured."	irrelevant	neutral
+"If treatment is delayed, melanoma is often fatal."	irrelevant	neutral
+"Four main factors influence the risk of skin cancer: skin pigment and ability to tan,  heredity, exposure to chemicals and amount of exposure to sunlight. "	relevant	neutral
+"Experimental studies show that chemicals called ""promoters"" can increase the cancer-causing ability of ultraviolet radiation present in sunlight."	relevant	support
+Ultraviolet radiation (UVR) can increase the cancer-causing ability of chemicals from coal tar and pitch.	relevant	support
+The damaging effects of ultraviolet radiation accumulate over the years.	irrelevant	neutral
+"In general, the risk of developing skin cancer increases with the amount of time spent under the sun and the intensity of radiation."	relevant	support
+"Recent studies have focused on the effects of intermittent (short-term, occasional) sun exposure in comparison to chronic (long-term) exposure."	relevant	neutral
+It appears that the type of sun exposure may influence the type of cancer that develops.	relevant	support
+Intermittent solar exposure may be an important factor leading to the onset of basal cell carcinoma of the skin.	relevant	support
+Childhood sun exposure may also play an important part in the development of these cancers later in adult life.	relevant	support
+"For squamous cell tumours, high levels of chronic occupational sunlight exposure, especially in the 10 years prior to diagnosis, results in an elevated risk for this cancer in the highest exposure group."	relevant	support
+Skin cancer is the result of decades of exposure to the sun.	relevant	support
+It is important to be aware of the cancer risks and take precautions while under the sun from as early in life as possible.	relevant	support
+"Approaches to prevent skin cancer include: reducing exposure to sunlight, wearing protective clothing,  and using sunscreens on exposed skin. "	relevant	support
+"The skin uses sunlight to help manufacture vitamin D, which is important for normal bone formation."	irrelevant	neutral
+But sometimes sun's ultraviolet light can be very detrimental.	irrelevant	neutral
+Suntanning occurs because exposure to sunlight causes the skin to produce more melanin and to darken.	irrelevant	neutral
+Too much exposure to ultraviolet or UV rays can cause sunburn.	irrelevant	neutral
+"UV rays penetrate the outer skin layers and pass into the deeper layers, where they can damage or kill skin cells."	irrelevant	neutral
+"People who do not have much melanin and sun burn easily should protect themselves by covering up sensitive areas, wearing sun block, limiting their total exposure time, and limiting their sun exposure between the hours of 10 a.m. and 2 p.m."	irrelevant	neutral
+Frequent and prolonged exposure to ultraviolet rays over many years is the chief cause of skin cancer.	relevant	support
+Early detection and treatment are key in increasing the cure rate for skin cancer.	irrelevant	neutral
+"Sam Shuster, a consultant dermatologist at Norfolk and Norwich University Hospital, says that sun exposure is the major cause of the common forms of skin cancer, which are all virtually benign, but not the rarer, truly malignant melanoma."	relevant	support
+"Shuster says that the common skin cancers develop in pale, sun exposed skin and are less frequent in people who avoid the sun and use protection."	relevant	support
+"In contrast, melanoma is related to ethnicity rather than pigmentation and in 75% of cases occurs on relatively unexposed sites, especially on the feet of Africans."	irrelevant	neutral
+"Melanoma occurrence decreases with greater sun exposure and can be increased by sunscreens, while sun bed exposure has a small inconsistent effect."	relevant	oppose
+Any causative effect of ultraviolet light on melanoma can only be minimal.	relevant	oppose
+There is good evidence that the reported increase in melanoma incidence is an artefact caused by the incorrect classification of benign tumors as malignant melanomas.	relevant	neutral
+"Ultraviolet light causes the common, mainly benign skin cancers and, like smoking, wrinkles the skin."	relevant	support
+"But Professor Scott Menzies, from the University of Sydney at the Sydney Melanoma Diagnostic Centre, argues that melanoma is far more common on body sites receiving more sun exposure and in people of races who tend to burn rather than tan."	relevant	support
+"According to Menzies, there is considerable evidence that intermittent sun exposure and sunburn are strong independent indicators of the risk of developing melanoma in white populations."	relevant	support
+Prof. Menzies argues that there is a clear association between increasing cases of melanoma and increasing environmental ultraviolet light.	relevant	support
+"Genetic evidence is also supportive with the major genes causing melanoma showing ultraviolet light ""signature"" mutations, while people deficient in repairing ultraviolet light genetic damage have a 1000 times greater risk of developing the disease."	relevant	support
+Data from Australia shows that cases of melanoma among young adults fell between 1983 and 1996 and this coincided with strong public health messages to use sun protection.	relevant	support
+"When you examine the geographical, sun exposure and genetic evidence together, sun exposure is clearly a major cause of melanoma."	relevant	support
+"Melanoma has always been considered linked to sun exposure, and sunscreen is thought to protect against it."	relevant	support
+"Medical experts agree that sun can cause wrinkling, mottled pigmentation and generally age the skin, but now some researchers wonder if UV rays have anything to do with melanoma."	relevant	oppose
+"Researchers suggest there may not be a link, even though the rates of melanoma have gone up by 3.1 percent a year since 1992, coinciding with a thinning ozone layer."	relevant	oppose
+"Indeed, this year, according to the National Cancer Institute, there will be 68,720 new cases of melanoma and 8,650 people will die from the disease."	irrelevant	neutral
+"The risk of melanoma is more than 10 times higher for whites than for African Americans, particularly for fair-skinned Caucasians with red or blond hair who burn easily."	relevant	support
+"Nevertheless, detractors say sunscreen won't do a thing to protect them."	relevant	oppose
+All the scriptures about sun exposure and melanoma are premature.	relevant	oppose
+The UV explanation for melanoma is not adequate.	relevant	oppose
+"Melanoma cases occur on relatively unexposed sites of the body, especially the feet of dark-skinned Africans."	relevant	oppose
+There is no evidence that melanomas occur at sunburn sites on the body.	relevant	oppose
+"Meanwhile, it's difficult to create melanomas in laboratory experiments with ultraviolet light, suggesting that UV has little impact."	relevant	oppose
+"Shuster acknowledges that the sun is responsible for some skin cancers, like basal and squamous cell, but, these are virtually benign and mostly trivial."	relevant	oppose
+"There is no proof that ultraviolet light exposure is a significant cause of the rarer, truly malignant melanoma."	relevant	oppose
+"If sun were important, we'd expect sunscreen to decrease the incidence of melanoma over the years as more and more people are using sunscreen."	relevant	oppose
+Melanoma has actually increased over the years even after more and more people have started using suncreen.	relevant	oppose
+The sun may actually decrease the risk of melanoma.	relevant	oppose
+"It's true that in dark-skinned people, like the Asian and black populations, melanoma shows up in areas of the body that are not exposed to the sun and this certainly could suggest that melanoma is not related to UV light."	relevant	oppose
+"In white-skinned races, we also see that 1% of melanomas are found in areas not-exposed to the sun."	relevant	oppose
+What we do know is that melanoma is highly dependent on how much sun you get and your tendency to get sunburned.	relevant	support
+"In the end, 95% of melanoma cases are due to sun exposure."	relevant	support
+"We also know that the relative density or severity of the melanoma is greater on body sites that get more sun, like the trunk in men and lower extremities in women."	relevant	support
+"Actually, the best predictor for melanoma is not total sun exposure, but hard and intermittent exposure that does the damage."	relevant	support
+Your cells don't develop adequate protections when your sun exposure is erratic.	irrelevant	neutral
+"As for sunscreens, it is correct to say that there is no evidence that sunscreens protect against melanoma. "	relevant	neutral
+The southern hemisphere is currently experiencing record temperatures raising the mercury to levels many regions have never experienced.	irrelevant	neutral
+Some climatologists have stated that the trend will continue in the northern hemisphere come July.	irrelevant	neutral
+With these hot temperature come extreme warnings from public health officials to slather on the sunscreen to prevent skin cancer and specifically protect us from melanoma.	relevant	support
+Melanoma definitely can be deadly.	irrelevant	neutral
+"There are more than 70,000 cases in the US alone every year of melanoma and almost 10,000 people will die of the disease yearly."	irrelevant	neutral
+"Melanoma accounts for less than two percent of skin cancer cases, but the vast majority of skin cancer deaths."	irrelevant	neutral
+"Of the seven most common cancers in the US, melanoma is the only one whose incidence is increasing."	irrelevant	neutral
+"Between 2000 and 2009, melanoma incidence climbed 1.9 percent annually."	irrelevant	neutral
+It’s also the most common form of cancer for young adults 25-29 years old and the second most common form of cancer for young people 15-29 years old.	irrelevant	neutral
+Now what’s fascinating is the claim by public health watchdogs that almost 90 percent of melanomas are attributed to exposure to ultraviolet (UV) radiation from the sun.	relevant	support
+Researchers claim that regular daily use of an SPF 15 or higher sunscreen reduces the risk of developing melanoma by 50 percent.	relevant	support
+What’s interesting is how many people never stop to think about how humans survived on this planet for thousands of years working outside for hours on end before the industrial era.	relevant	oppose
+"Sunlight DOES NOT Cause Skin Cancer, It’s Your Best Defense Against Cancer."	relevant	oppose
+Exposure to ultraviolet B radiation in sunlight provides the mechanism for more than 90% of the vitamin D production in most individuals.	irrelevant	neutral
+"The widespread use of sunscreens, particularly those with high sun protection factors (SPF), may lead to a significant decrease in solar-induced previtamin D3 in the skin, resulting in a vitamin D level which is insufficient for protection against a wide range of diseases."	irrelevant	neutral
+There are well over 800 references in the medical literature showing vitamin D’s effectiveness–both for the prevention and treatment of cancer.	irrelevant	neutral
+"The results, published in the American Journal of Epidemiology, showed that women who had at least 21 hours a week exposure to the sun’s UV rays in their teens were 29 percent less likely to get cancer than those getting under an hour a day."	relevant	oppose
+"For women who spent the most time out side in their forties and fifties, the risk fell by 26 percent and for those above 60, sunshine halved their chances of a tumour."	relevant	oppose
+Exposure to sunlight and ultraviolet light has been repeatedly shown to NOT be the cause of skin cancer.	relevant	oppose
+Scientists from The University of Texas MD Anderson Cancer Center reported UVA exposure is unlikely to have contributed to the rise in the incidence of melanoma over the past 30 years.	relevant	oppose
+"For melanoma, it is only latitudinal variation that favours the hypothesis of sun exposure causation."	relevant	support
+It is postulated that skin temperature by itself may suffice to account for the observed variation of melanoma with latitude.	relevant	oppose
+The higher incidence of melanoma in the higher social classes and its increasing incidence with age may be readily explained by the hypothesis that melanoma incidence increases with increase in skin temperature which scientists have incorrectly linked to the sun as the primary causative factor.	relevant	oppose
+No scientific literature has ever proven that sunlight causes cancer in human beings.	relevant	oppose
+"Most studies that have attempted to find a cause have only found correlations and many scientists have established the the toxicity level of the human body which reacts with the UV spectrum is what causes cancer, not the sunlight itself."	relevant	oppose
+"Both UVA and UVB can cause tanning and burning, although UVB does so far more rapidly."	irrelevant	neutral
+"UVA, however, penetrates your skin more deeply than UVB."	irrelevant	neutral
+"UVB appears to be protective against melanoma — or rather, the vitamin D your body produces in response to UVB radiation is protective."	relevant	oppose
+"As written in The Lancet: “Paradoxically, outdoor workers have a decreased risk of melanoma compared with indoor workers, suggesting that chronic sunlight exposure can have a protective effect.” So if UVA and UVB do not cause melanoma, why use sunscreen?"	relevant	oppose
+"If the sun was REALLY causing skin cancer, and if sunscreen prevented it, we’d be cancer-free by now."	relevant	oppose
+"We’re already spending less time outside than ever, and wasting billions of dollars a year on needless, dangerous creams and lotions."	irrelevant	neutral
+"Australia has one of the highest rates of skin cancer in the world.Everyone, regardless of their skin type, is at risk of sun damage and skin cancer."	irrelevant	neutral
+All Australians should become familiar with their skin.	irrelevant	neutral
+"If you notice anything unusual, including any change in shape, colour or size of a spot, or the development of a new spot, visit your doctor immediately."	irrelevant	neutral
+Overexposure to the sun can cause skin damage which may lead to skin cancer.	relevant	support
+It’s important to balance protecting yourself from skin cancer with getting some sun for vitamin D. Anyone can develop skin cancer.	relevant	support
+The major cause is over exposure to ultraviolet (UV) radiation from the sun or artificial sources such as solariums.	relevant	support
+"There are other factors that can increase or decrease your risk of developing skin cancer, including skin type, having many moles and freckles – particularly multiple dysplastic naevi (atypically shaped moles), and having a personal or family history of skin cancer."	irrelevant	neutral
+"Australia has one of the highest rates of skin cancer in the world, with two in three Australians developing some form of skin cancer before they reach the age of 70."	irrelevant	neutral
+"Each year, over 2,000 Australians die from skin cancer, yet skin cancer is one of the most preventable cancers."	irrelevant	neutral
+Every additional decade of high sun exposure or solarium use further increases the risk of melanoma (the most dangerous form of skin cancer).	relevant	support
+"Ultraviolet (UV) radiation from the sun is important for vitamin D levels in the body, but too much UV can cause sunburn, premature ageing, skin and eye damage and ultimately skin cancer."	relevant	support
+A balanced approach to sun exposure is important to minimise skin cancer risk and help with vitamin D.	relevant	support
+ Protecting skin from over exposure can help reduce the risk of skin cancer.	relevant	support
+"Melanoma is more common in older adults than younger people, with the average age of diagnosis at 61 years."	irrelevant	neutral
+"Although early onset melanoma is comparatively rare, melanoma is one of the most common cancers and the leading cause of cancer death for young Australians."	irrelevant	neutral
+The vast majority (83%) of non-melanoma skin cancer treatments were administered to Australians aged 55 years and above.	irrelevant	neutral
+"Older adults have had more cumulative sun exposure than younger people, with every additional decade of high sun exposure shown to further increase the risk of melanoma."	relevant	support
+"However, by limiting recreational sun exposure, a person can likely decrease their risk of melanoma whatever their age."	relevant	support
+"Solariums tan the skin by radiating it with both UVA and UVB radiation, which are known to be dangerous to the skin."	irrelevant	neutral
+"UV radiation from a solarium is more intense than natural sunlight, up to three times as strong as the midday summer sun."	irrelevant	neutral
+Research shows that people who use a solarium before the age of 35 have a 59 per cent greater risk of melanoma than those who don’t use a solarium.	relevant	support
+"In 2009, the International Agency for Research on Cancer (IARC) listed ultraviolet-emitting tanning beds in its highest cancer risk category and labelled them as ‘carcinogenic to humans’."	irrelevant	neutral
+"In Australia, many states and territories are banning commercial tanning units."	irrelevant	neutral
+"There is not much you can do about your hereditary risk factors, but you can take steps to reduce your risk of skin cancer from over-exposure to UV radiation and recreational sun exposure."	relevant	support
+Everyone loves the summer time and with summer comes more sun exposure.	irrelevant	neutral
+"Whether we have fair skin or dark skin, thinking about how much sun exposure we get is a good idea because we don’t want to burn or get heat stroke."	irrelevant	neutral
+But another side effect that often is brought up with sun exposure is skin cancer.	relevant	neutral
+Does the sun cause skin cancer?	relevant	neutral
+The purpose of this article is to go through various facts surrounding skin cancer to see if there is truly a link between the two.	relevant	neutral
+"The sun is the giver of life on this planet, there is no doubting that."	irrelevant	neutral
+But is it dangerous to our health?	irrelevant	neutral
+What may be surprising right off the top is that up until the time of writing this the sun has never ever been linked to solely causing skin cancer.	relevant	oppose
+All medical and governmental reports regarding patients with skin cancer have never been linked to the sun being the main cause.	relevant	oppose
+"There have been suggestions that it may have played a role, but results are flimsy due to the lack of evidence."	relevant	oppose
+"This myth was created and brought forward by the sunscreen industry, dermatologists and the cancer industry."	relevant	oppose
+"Like with many other mainstream medical conditions, unfortunately people who do get skin cancers are often just thrown into the category of having got it from sun exposure without ever really being looked at as to why they got it."	relevant	oppose
+This has been an issue the medical field has not looked at greatly when it comes to various diseases because it often requires much time and testing with specific patients to really determine the causes.	irrelevant	neutral
+We hear it everywhere that if you go out in the sun without sunscreen you have a higher risk of getting skin cancer because of harmful UV rays.	relevant	support
+"To more accurately put it, you do not get skin cancer from the sun."	relevant	oppose
+The National Academy of Sciences published a review stating that the Omega 6:3 ratio is the key to preventing skin cancers.	irrelevant	neutral
+Most skin cancers are caused by exposure to the sun.	relevant	support
+This may be long-term exposure or short periods of overexposure.	relevant	neutral
+There are two main types of skin cancer: basal cell carcinoma (BCC) and squamous cell carcinoma (SCC).	irrelevant	neutral
+This is because ultraviolet (UV) light from the sun damages the DNA (genetic material) in our skin cells.	relevant	support
+People with a history of sunburn or overexposure to the sun in childhood have a greater risk of developing basal cell carcinoma.	relevant	support
+Sun exposure over your lifetime is more significant in developing squamous cell carcinoma (SCC).	relevant	support
+People who work outdoors have a greater risk of skin cancer as they are exposed to the sun for long periods of time.	relevant	support
+Fair-skinned people have a greater risk of skin cancer than black- or brown-skinned people.	irrelevant	neutral
+Regularly using sunbeds and sunlamps can also increase the risk of developing some skin cancers.	relevant	support
+"People who take drugs that lower their immunity (immunosuppressants) – for example, after a kidney transplant – are at an increased risk of skin cancer."	irrelevant	neutral
+"Squamous cell cancers are the most common, but basal cell cancers and melanomas are also more common in these people than in the general population."	irrelevant	neutral
+"However, the reason for taking the immunosuppressants outweighs the potential risk of developing skin cancer."	irrelevant	neutral
+"If you’ve had a transplant, it’s important that you see your doctor regularly to check for early signs of skin cancer."	irrelevant	neutral
+Another rare possible cause for non-melanoma skin cancer is overexposure to certain chemicals at work.	irrelevant	neutral
+"People with certain rare hereditary conditions, such as Gorlin syndrome or xeroderma pigmentosum (XP), have a higher risk of developing skin cancer."	irrelevant	neutral
+"Long-term sunlight exposure is known to be associated with the development of skin cancer, skin aging, immune suppression, and eye diseases such as cataracts and macular degeneration."	relevant	support
+"Short-term over-exposure to sun is the cause of sunburn, snow blindness, and solar retinopathy."	relevant	neutral
+"UV rays, and therefore sunlight and sunlamps, are the only listed carcinogens that are known to have health benefits, and a number of public health organizations state that there needs to be a balance between the risks of having too much sunlight or too little."	relevant	support
+There is a general consensus that sunburn should always be avoided.	relevant	neutral
+"We all need some sun exposure — it's the top source of vitamin D, which helps our bodies absorb calcium for stronger, healthier bones."	irrelevant	neutral
+"Repeated unprotected exposure to the sun's ultraviolet (UV) rays can cause skin damage, eye damage, immune system suppression, and skin cancer."	relevant	support
+Even people in their twenties can develop skin cancer.	irrelevant	neutral
+"Most kids get much of their lifetime sun exposure before age 18, so it's important for parents to teach them how to enjoy fun in the sun safely."	irrelevant	neutral
+Taking the right precautions can greatly reduce your child's chance of developing skin cancer.	irrelevant	neutral
+"The sun radiates light to the earth, and part of that light consists of invisible UV rays."	irrelevant	neutral
+"When these rays reach the skin, they cause tanning, burning, and other skin damage."	irrelevant	neutral
+"Sunlight contains three types of ultraviolet rays: UVA, UVB, and UVC: UVA rays cause skin aging and wrinkling and contribute to skin cancer, such as melanoma."	relevant	support
+"Because UVA rays pass effortlessly through the ozone layer (the protective layer of atmosphere, or shield, surrounding the earth), they make up the majority of our sun exposure."	irrelevant	neutral
+Beware of tanning beds because they use UVA rays as well as UVB rays.	irrelevant	neutral
+A UVA tan does not help protect the skin from further sun damage; it just produces color and a false sense of safety.	irrelevant	neutral
+"UVB rays are also dangerous, causing sunburns, cataracts (clouding of the eye lens), and effects on the immune system."	irrelevant	neutral
+They also contribute to skin cancer.	relevant	support
+"Melanoma, the most dangerous form of skin cancer, is thought to be associated with severe UVB sunburns that occur before the age of 20."	relevant	support
+"Most UVB rays are absorbed by the ozone layer, but enough of these rays pass through to cause serious damage."	irrelevant	neutral
+"UVC rays are the most dangerous, but fortunately, these rays are blocked by the ozone layer and don't reach the earth."	irrelevant	neutral
+"What's important is to protect your family from exposure to UVA and UVB, the rays that cause skin damage."	irrelevant	neutral
+Melanin is the first defense against the sun because it absorbs dangerous UV rays before they do serious skin damage.	irrelevant	neutral
+"Melanin is found in different concentrations and colors, resulting in different skin colors."	irrelevant	neutral
+"The lighter someone's natural skin color, the less melanin it has to absorb UV rays and protect itself."	irrelevant	neutral
+"The darker a person's natural skin color, the more melanin it has to protect itself."	irrelevant	neutral
+(But both dark- and light-skinned kids need protection from UV rays because any tanning or burning causes skin damage.)	irrelevant	neutral
+"Also, anyone with a fair complexion — lighter skin and eye color — is more likely to have freckles because there's less melanin in the skin."	irrelevant	neutral
+"Although freckles are harmless, being outside in the sun may help cause them or make them darker."	irrelevant	neutral
+"As the melanin increases in response to sun exposure, the skin tans."	irrelevant	neutral
+The risk of skin cancer increases with the amount and intensity of sun exposure.	relevant	support
+"Those who are regularly exposed to the sun (such as farmers, boaters, and sunbathers) are at much greater risk of skin cancer."	relevant	support
+A sunburn develops when the amount of UV exposure is greater than what can be protected against by the skin's melanin.	irrelevant	neutral
+"Although sun exposure is usually blamed for skin cancer, recent studies reveal provocative findings."	relevant	oppose
+Melanoma was occurring in areas where sunscreen is used the most and melanoma rates are highest among those that avoid the sun and work in indoor urban environments.	relevant	oppose
+A study in BMJ examined the relationship between indoor fluorescent lights and the ever rising rate of melanoma.	relevant	neutral
+"Taking into account such factors as hair color, skin type and the history of sun exposure, it was found that working under fluorescent lights had doubled the risk of melanoma in the subjects of the test group."	relevant	oppose
+Evidence that the sun was the causative factor in the development of melanoma was weak and inconclusive.	relevant	oppose
+Tanned skin from regular exposure to the sun and people who received more sunlight were less vulnerable to the deleterious effects of fluorescent lights.	relevant	oppose
+Russian researchers found women working under fluorescent lights to be at a greater risk of melanoma.	relevant	oppose
+"In 1990, a U.S. Navy study found the highest rates of melanoma in those that worked indoors."	relevant	oppose
+"In 2001, the National Academy of Sciences published a comprehensive review showing that the omega 6:3 ratio was the key to preventing skin cancer development."	irrelevant	neutral
+"Omega-3 and omega-6 fats are both essential for human health, however the typical American consumes far too many omega-6 fats in their diet while consuming very low levels of omega-3."	irrelevant	neutral
+"While the ideal ratio of omega-6 to omega-3 fats is 1:1, our ratio of omega-6 to omega-3 averages from 20:1 to 50:1!"	irrelevant	neutral
+"The primary sources of omega-6 are corn, soy, safflower and sunflower oil; these oils are overabundant in the typical diet, which explains our excess omega-6 levels."	irrelevant	neutral
+"Studies fail to prove sunscreens prevent basal cell cancers and melanoma, yet most public health officials still insist that sunscreen use or or abstinence from the sun is our best protection."	relevant	oppose
+"Oddly enough, since the introduction of chemical sunscreen, skin cancer rates began to climb and not fall."	relevant	oppose
+"For example, melanoma rates doubled from 6 to 13 per 100,000 people since 1973, after people started using chemical suncreen materials."	relevant	oppose
+"Today, skin cancer diagnoses surpass all other cancer, with over 1.3 million new cases each year, with new melanoma diagnoses to be close to 48,000 in 2002, according to the American Cancer Society."	irrelevant	neutral
+"Research shows sunscreen does not protect against melanoma, the most dangerous form of skin cancer."	relevant	oppose
+"Lotions decrease the risk of sunburn, they do not block UVA rays, which cause melanoma."	relevant	support
+"Even sunscreens with the highest protection factor of 35, applied in the correct amounts, were not effective at filtering out the harmful rays."	irrelevant	neutral
+Researchers say that people should limit their sunbathing time and use clothing to block UVA rays when sun is at its strongest.	irrelevant	neutral
+"Damage to skin cells continues for hours after spending time in the sun, according to research that uncovers a new link between sun exposure and cancer."	relevant	support
+The discovery that some of the most serious damage to skin cells may be occurring in the dark raises the prospect of new “evening after” lotions that would help limit the effect and reduce the risk of skin cancer.	relevant	support
+Vitamin E was identified by scientists as a promising candidate for helping to “quench” the after-effects of a hot day at the beach.	irrelevant	neutral
+"Unexpectedly, the source of the “dark damage” was found to be melanin, the pigment in skin cells that normally acts as a shield against ultra-violet (UV) radiation."	irrelevant	neutral
+"Áine McCarthy, of Cancer Research UK said, “The discovery that UV radiation can continue to harm our DNA hours after exposure raises the possibility of developing future products that might reduce this ‘dark damage’."	relevant	support
+"For now, the best way to cut your risk of skin cancer is to enjoy the sun safely and avoid sunbeds."	relevant	support
+"Melanoma is associated with brief intense sun exposures, the kind that cause blistering sunburn, whereas other skin cancers are normally linked to long-term moderate exposure."	relevant	support
+"Very simply, sunburn and UV light can damage your skin, and this damage can lead to skin cancer."	relevant	support
+"There are of course other determining factors, including your heredity and the environment you live in."	irrelevant	neutral
+"However, both the total amount of sun received over the years, and overexposure resulting in sunburn can cause skin cancer."	relevant	support
+Most people receive 80% of their lifetime exposure to the sun by 18 years of age.	irrelevant	neutral
+The message to parents from this is to protect your children.	irrelevant	neutral
+Tanning is your skin's response to UV light.	irrelevant	neutral
+It is a protective reaction to prevent further injury to your skin from the sun.	irrelevant	neutral
+"However, tanning does not prevent skin cancer."	irrelevant	neutral
+"Remember, skin cancer is very slow to develop."	irrelevant	neutral
+The sunburn you receive this week may take 20 years or more to become skin cancer.	relevant	support
+"If there is a history of skin cancer in your family, you are probably at a higher risk."	irrelevant	neutral
+"People with fair skin, with a northern European heritage appear to be most susceptible."	irrelevant	neutral
+There are several types of cancer that start in the skin.	irrelevant	neutral
+The most common skin cancers are basal cell cancer and squamous cell cancer.	irrelevant	neutral
+Skin cancer is more common in people with light colored skin who have spent a lot of time in the sunlight.	relevant	support
+"Skin cancer can occur anywhere on your body, but it is most common in places that have been exposed to more sunlight, such as your face, neck, hands, and arms."	relevant	support
+Skin cancer can look many different ways.	irrelevant	neutral
+"The most common sign of skin cancer is a change on the skin, such as a growth or a sore that won't heal."	irrelevant	neutral
+Skin cancer may also appear as a flat red spot that is rough or scaly.	irrelevant	neutral
+"Not ail changes in your skin are cancer, but you should see your doctor if you notice changes in your skin."	irrelevant	neutral
+Melanoma is a disease of the skin in which cancer (malignant) cells are found in the cells that color the skin (melanocytes).	irrelevant	neutral
+"Melanoma usually occurs in adults, but it may occasionally be found in children and adolescents."	irrelevant	neutral
+"Melanoma is a more serious type of cancer than the more common skin cancers, basal cell cancer or squamous cell cancer, which begin in the basal or squamous cells of the epidermis."	irrelevant	neutral
+It is estimated that 1 out of 7 people in the United States will develop some form of skin cancer during their lifetime.	irrelevant	neutral
+One serious sunburn can increase the risk by as much as 50%.		
+The effect UV light has on your skin is dependent both upon the intensity and the duration of your exposure.	irrelevant	neutral
+The main cause of skin cancer is ultraviolet light (UV) radiation from sunlight.	relevant	support
+Skin cancer can take 20 to 30 years to develop.	irrelevant	neutral
+Some people are more at risk than others for developing skin cancer.	irrelevant	neutral
+"You may develop skin cancer later in life, if you have fair, light-coloured skin that freckles or burns easily, had severe sunburn or blistering as a child, have been exposed to sunlight all your life, use tanning beds or sunbeds, have a history of severe skin damage."	relevant	support
+Most skin cancers can be prevented by avoiding the sun when it's at its strongest and by paying attention to any early skin changes.	relevant	support
+Ultraviolet (UV) rays are a part of sunlight that is an invisible form of radiation.	relevant	support
+UV rays from sun exposure can penetrate and change the structure of skin cells and can cause skin cancer and premature skin aging.	relevant	oppose
+Exposure to UV rays from the sun or tanning beds is the most preventable risk factor for melanoma.	relevant	support
+UVA rays are the most abundant source of solar radiation at the earth's surface and penetrate beyond the top layer of skin.	irrelevant	neutral
+UVB rays are less abundant at the earth's surface and penetrate less deeply into the skin but can also be damaging and are primarily responsible for causing sunburn.	irrelevant	neutral
+It is important to wear a broad spectrum sunscreen that protects against both UVA and UVB radiation.	irrelevant	neutral
+"The current SPF scoring system primarily refers to degree of protection against UVB radiation, and scientists at the FDA are working to develop and implement a system to measure UVA protection."	irrelevant	neutral
+"Most sun protection products work by absorbing, reflecting, or scattering the sun's rays."	irrelevant	oppose
+Sun protection products contain chemicals that interact with the skin to protect it from UV rays.	irrelevant	neutral
+"Broad-spectrum sunscreens protect against UVA and UVB rays, the two main components of the sun's rays."	irrelevant	neutral
+"UVA and UVB components in sun rays damage the skin in different ways, but both can lead to the development of skin cancer."	relevant	support
+Cutaneous malignant melanoma is a skin cancer of the pigment cells of the skin.	irrelevant	neutral
+"The most important preventable cause for melanoma is exposure to too much ultraviolet light in sunlight, especially during the first 20 years of life."	relevant	support
+"There is lots of evidence linking melanoma to sun exposure, and melanomas are especially common in white-skinned people who live in sunny countries."	relevant	support
+"The use of artificial sources of ultraviolet light, such as sun beds, also raises the risk of getting a melanoma."	relevant	neutral
+Some people are more likely to get a melanoma than others: People who burn easily in the sun are particularly at risk.	irrelevant	neutral
+Melanoma occurs most often in fair-skinned people who tan poorly.	irrelevant	neutral
+"Past episodes of severe sunburn, often with blisters, and particularly in childhood, increase the risk of developing a melanoma."	relevant	support
+"However, not all melanomas are due to sun exposure, and some appear in areas that are normally kept covered."	relevant	oppose
+"People with many (more than 50) ordinary moles, or with a very large dark hairy birthmark, have a higher than average chance of getting a melanoma."	irrelevant	neutral
+"In May 2014 the popular press reported on an article that had recently been published in the Journal of Internal Medicine entitled ""Avoidance of sun exposure is a risk factor for all-cause mortality."""	relevant	oppose
+"Researchers found that the results ""showed that mortality was about double in women who avoided sun exposure compared to the highest exposure group""."	relevant	oppose
+There's no conclusive evidence that sunburns lead to cancer.	relevant	oppose
+There is no real proof that sunscreens protect against melanoma.	irrelevant	neutral
+"There's no proof that increased exposure to the sun increases the risk of melanoma."""	relevant	oppose
+"Dr Andrea Darling, Post-doctoral Research Fellow from the University of Surrey, said there was still strong evidence that skin cancer is caused by sunbathing."	relevant	support
+"The reasons behind higher death rates in women with lower sun exposure are still unexplained, as unhealthy lifestyle choices could have played a part."	irrelevant	neutral
+Overexposure to UV radiation from the sun or sunbeds is the main cause of skin cancer.	relevant	support
+Evidence shows that the Sun Protects You from Melanoma.	relevant	oppose
+Studies show that those who spend the most time outdoors have the lowest risk of melanoma.	relevant	oppose
+It revealed that people who work outside and exposed to sun have the lowest incidence of skin cancer.	relevant	oppose
+"For example, lifeguards, construction workers and farmers have much lower rates than office workers."	relevant	oppose
+The study showed that people with “heavy occupational sun exposure” have significantly lower risk of skin cancer.	relevant	oppose
+The study results showed that office workers with less sun exposure develop melanoma at twice the rate of lifeguards who have more sun exposure.	relevant	oppose
+Those who had the lowest incidence of skin cancer were sunbathers!	relevant	oppose
+Population studies also show an inverse relationship between sun exposure and melanoma.	relevant	oppose
