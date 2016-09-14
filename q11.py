@@ -37,6 +37,7 @@ def main():
   fd = open(filename,'r')
   num_samples = 0
   num_correct = 0
+  num_supp_correct = 0
 
   for line in fd:
     (document, relevance, support) = line.split('\t')
@@ -60,13 +61,31 @@ def main():
       pred = "relevant"
     else:
       pred = "irrelevant"
+    pred_support = get_support(document, pred)
     if pred == relevance:
       num_correct = num_correct + 1
+    if pred_support == support:
+      num_supp_correct = num_supp_correct + 1
     num_samples = num_samples + 1
-    print  num_samples, document, "Pred=",pred, "Truth=", relevance, sim, "Support=", support
+    print  num_samples, document, "Pred=",pred, "Truth=", relevance, sim, "Support=", support, "Pred supp=", pred_support
     print "-"*30
   accuracy = num_correct / float(num_samples)
-  print accuracy
+  supp_accuracy = num_supp_correct / float(num_samples)
+  print accuracy, supp_accuracy
+
+def get_support(document, relevance):
+
+  keywords=['risk']
+  if relevance == "irrelevant":
+    return "neutral"
+
+  for keyword in keywords:
+    if keyword in document:
+      return "support"
+
+  return "oppose"
+
+
 
 def preprocess_doc(doc):
   #lower case, stemming, stop word removal, special character removal
