@@ -14,59 +14,41 @@ def main():
 
   filename = 'women_should_Take_HRT_Post_Menopause_final.txt'
 
-  groups = ['sun','skin','cancer']
-
-  synonyms={}
-
-  synonyms['sun']=['sun','sunlight','uv','uva','uvb','sunbathers','sunburns',
-          'sunburn','exposure','sunbather','indoor','radiation','outdoors','outside',
-          'exposed','unexposed','temperature','light','solarium']
-  synonyms['skin']=['skinned','burn','melanoma','melanomas', 'damages','causes',
-          'exposure','this','skin']
-  synonyms['cancer']=['cancer','melanoma','melanomas','cancerous','carcinoma',
-          'health problem','this']
-  q = 'does sun exposure cause skin cancer'
-  imp_nouns = ['sun', 'skin', 'cancer']
-  syn = get_synonyms(q)
-  q = preprocess_doc(q)
-  q_nv = mylib.get_nouns_and_adjs(q)
-  q_nv.extend(syn)
-  print q_nv
-  #sys.exit(1)
-
   fd = open(filename,'r')
   num_samples = 0
   num_correct = 0
+  num_supp_correct = 0
 
   for line in fd:
     (document, relevance, support) = line.split('\t')
     relevance = relevance.strip()
     support = support.strip()
     document = preprocess_doc(document)
-    #nv = mylib.get_nouns_and_verbs(document)
-    #document = utils.simple_preprocess(document)
-    #print q_nv
-    #print nv
-    #sim = mylib.jaccard_similarity(q_nv, nv)
-    #sim = len(set.intersection(set(q_nv),set(nv)))
-    sim=0
-    for word in groups:
-      for syn in synonyms[word]:
-        if syn in document:
-          sim = sim + 1
-          print syn
-          break
-    if sim >=3:
-      pred = "relevant"
-    else:
-      pred = "irrelevant"
-    if pred == relevance:
+    (pred_rel, pred_supp) = classify_doc(document)
+    if pred_rel == relevance:
       num_correct = num_correct + 1
+    if pred_supp == support:
+      num_supp_correct = num_supp_correct + 1
     num_samples = num_samples + 1
-    print  num_samples, document, "Pred=",pred, "Truth=", relevance, sim, "Support=", support
+    print  num_samples, document, "Pred=",pred_rel, "Truth=", relevance, "Support=", support, "Pred supp=", pred_supp
     print "-"*30
   accuracy = num_correct / float(num_samples)
-  print accuracy
+  supp_accuracy = num_supp_correct / float(num_samples)
+  print accuracy, supp_accuracy
+
+def get_support(document, relevance):
+
+  keywords=['risk']
+  if relevance == "irrelevant":
+    return "neutral"
+
+  for keyword in keywords:
+    if keyword in document:
+      return "support"
+
+  return "oppose"
+
+
 
 def preprocess_doc(doc):
   #lower case, stemming, stop word removal, special character removal
@@ -78,6 +60,32 @@ def preprocess_doc(doc):
   doc = re.sub('\W+', ' ', doc)
   return doc
 
+def classify_doc(document):
+  groups = ['hrt']
+
+  synonyms={}
+
+  synonyms['hrt']=['hrt','hormone replacement therapy','estrogen replacement therapy'
+          ]
+  synonyms['skin']=['skinned','burn','melanoma','melanomas', 'damages','causes',
+          'exposure','this','skin']
+  synonyms['cancer']=['cancer','melanoma','melanomas','cancerous','carcinoma',
+          'health problem','this']
+  q = 'does sun exposure cause skin cancer'
+  imp_nouns = ['sun', 'skin', 'cancer']
+  sim=0
+  for word in groups:
+    for syn in synonyms[word]:
+      if syn in document:
+          sim = sim + 1
+          print syn
+          break
+    if sim >=1:
+      pred_rel = "relevant"
+    else:
+      pred_rel = "irrelevant"
+    pred_supp = get_support(document, pred_rel)
+  return (pred_rel, pred_supp)
 
 if __name__ == "__main__":
   main() 
