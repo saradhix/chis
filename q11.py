@@ -5,11 +5,6 @@ import sys
 
 import mylib
 
-def get_synonyms(sentence):
-  syn = ['sunlight','uva','solar','sunbathers','sunburns','melanoma','uv', 
-          'sunburn', 'melanomas','exposure','sun']
-  return syn
-
 def main():
 
   filename = 'does_sun_exposure_cause_skin_cancer_final.txt'
@@ -30,23 +25,35 @@ def main():
     if pred_supp == support:
       num_supp_correct = num_supp_correct + 1
     num_samples = num_samples + 1
-    print  num_samples, document, "Pred=",pred_rel, "Truth=", relevance, "Support=", support, "Pred supp=", pred_supp
+    print  num_samples, document, "Pred rel=",pred_rel, "Act rel=", relevance, "Pred supp=", pred_supp, "Act supp=", support
     print "-"*30
   accuracy = num_correct / float(num_samples)
   supp_accuracy = num_supp_correct / float(num_samples)
   print accuracy, supp_accuracy
 
 def get_support(document, relevance):
+  support_words=['because', 'therefore', 'after',
+          'for', 'since', 'when', 'assuming',
+          'so', 'accordingly', 'thus', 'hence',
+          'then', 'consequently','inverse']
+  oppose_words=['however', 'but', 'though',
+          'except', 'not', 'never', 'no',
+          'whereas', 'nonetheless', 'yet',
+          'despite']
 
   keywords=['risk']
   if relevance == "irrelevant":
     return "neutral"
 
-  for keyword in keywords:
-    if keyword in document:
+  for word in support_words:
+    if word in document:
       return "support"
 
-  return "oppose"
+  for word in oppose_words:
+    if word in document:
+      return "oppose"
+
+  return "neutral"
 
 
 
@@ -67,13 +74,12 @@ def classify_doc(document):
 
   synonyms['sun']=['sun','sunlight','uv','uva','uvb','sunbathers','sunburns',
           'sunburn','exposure','sunbather','indoor','radiation','outdoors','outside',
-          'exposed','unexposed','temperature','light','solarium']
+          'temperature','light','solarium']
   synonyms['skin']=['skinned','burn','melanoma','melanomas', 'damages','causes',
           'exposure','this','skin']
   synonyms['cancer']=['cancer','melanoma','melanomas','cancerous','carcinoma',
           'health problem','this']
   q = 'does sun exposure cause skin cancer'
-  imp_nouns = ['sun', 'skin', 'cancer']
   sim=0
   for word in groups:
     for syn in synonyms[word]:
