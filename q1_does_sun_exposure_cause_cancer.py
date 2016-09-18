@@ -20,54 +20,60 @@ def main():
     relevance = relevance.strip()
     support = support.strip()
     document = preprocess_doc(document)
-    if support=="support":
-      for word in document.split(' '):
-        supp_dict[word]=supp_dict.get(word,0)+1
-
-    if support=="oppose":
-      for word in document.split(' '):
-        opp_dict[word]=opp_dict.get(word,0)+1
-      
     (pred_rel, pred_supp) = classify_doc(document)
     if pred_rel == relevance:
       num_correct = num_correct + 1
     if pred_supp == support:
       num_supp_correct = num_supp_correct + 1
     num_samples = num_samples + 1
-    print  num_samples, document, "Pred rel=",pred_rel, "Act rel=", relevance, "Pred supp=", pred_supp, "Act supp=", support
+    print  num_samples, document, "PR=",pred_rel, "AR=", relevance, "PS=", pred_supp, "AS=", support
     print "-"*30
   accuracy = num_correct / float(num_samples)
   supp_accuracy = num_supp_correct / float(num_samples)
   print accuracy, supp_accuracy
 
-  #print supp_dict
-  #print opp_dict
-  #print sorted(supp_dict.items(), key=lambda x:x[1], reverse=True)
-  #print sorted(opp_dict.items(), key=lambda x:x[1], reverse=True)
 def get_support(document, relevance):
   support_words=['because', 'therefore', 'after',
           'since', 'when', 'assuming',
           'so', 'accordingly', 'thus', 'hence',
           'then', 'consequently', 'increase', 'intense','cause','evidence',
 'increased','harmful','develops','exposed','exposure','causes','associated','more common',
-'postulated']
+'postulated','proven']
+  
   oppose_words=['however', 'though',
-          'except', 'not', 'never', 'no',
           'whereas', 'nonetheless', 'yet',
-          'despite','inverse','less risk','lower risk']
+          'despite',]
 
+  reverse_words = ['no ',' no ','oppose',' not ', 'does not','least', 'less','nothing','except','decreased','never','although','inverse','weak','lowest' ]
+  reverse = False
+  support = 0
+  oppose = 0
   if relevance == "irrelevant":
     return "neutral"
 
   for word in support_words:
     if word in document:
       print word ,"present->Support"
-      return "support"
+      support = support + 1 
 
   for word in oppose_words:
     if word in document:
       print word ,"present->Oppose"
-      return "oppose"
+      oppose = oppose + 1
+  
+  for word in reverse_words:
+    if word in document:
+      print word,"Reversed meaning", "s=",support,"o=",oppose
+      reverse=True
+  if reverse and oppose:
+    return "support"
+  if reverse and support:
+    return "oppose"
+
+  if support:
+    return "support"
+  if oppose:
+    return "oppose"
 
   return "neutral"
 
