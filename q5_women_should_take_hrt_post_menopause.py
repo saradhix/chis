@@ -33,11 +33,12 @@ def main():
   print accuracy, supp_accuracy
 
 def get_support(document, relevance):
-  support_words=['shorten','reduction','benefit','help prevent cold','shorter illness','alleviate','neutral','ward off','halve','slash','reduce','prevented','manage','protective','reduc','decrease','stopped','wards off','most useful','lower','most effective','effective agent','fewer cold','less severe','fighting off','take plenty',' mg','strengthens','lessens','dry up','beneficial','fighting','still high','modest','liveli','preventive', 'strengthen','improve','cut their risk','stop cancer','half','may be effective']
+  support_words=['did not find any increase','no increase','good choice', 'less the increase', 'no evidence', 'flawed', 'counteract','benefits','not increase','alleviate','standard','good choice',  'neutral','ward off','slash','prevented','manage','protective','reduc','decrease','wards off','most useful','lower','most effective','effective agent','fewer cold','fighting off','take plenty',' mg','strengthens','lessens','dry up','fighting','still high','liveli','preventive', 'strengthen','improve','cut their risk','stop cancer','half','may be effective','outweigh']
   
-  oppose_words=['wrong','doubt','questionable','no benefit','zinc','no effect','no difference', 'wont help', 'no evidence','but not','did not','not show', 'doesnt','isnt','does not', 'little','not the best','not help','will not','disagree','unsupported','or not','not worth', 'not necessary','nor is','he same','but only for','has not been','inconclusive','nausea','diarrhea','dangerous','is not an','debunk','similar symptoms','do not recommend','do not prove','not effective','didnt help','alas','didnt','possibly','disappointing','unjustified']
+  oppose_words=['risk','small','disease','alarming','deadly','not be used', 'stopping','inadvisable', 'cause pain','bothersome','nonhormonal','side effects','less likely', 'not help','no longer','more difficult','modest increase','cancer','collapse','more health risk','ineffective', 'not prevent','not beneficial','adverse','appears','not be a good choice']
+  x=['no difference', 'wont help', 'no evidence','but not','did not','not show', 'doesnt','isnt','does not', 'little','not the best','not help','will not','disagree','unsupported','or not','not worth', 'not necessary','nor is','he same','but only for','has not been','inconclusive','nausea','diarrhea','dangerous','is not an','debunk','similar symptoms','do not recommend','do not prove','not effective','didnt help','alas','didnt','possibly','disappointing','unjustified']
 
-  reverse_words = ['small','unlikely','nor','aren' ]
+  reverse_words = ['unlikely','aren','none' ]
   reverse = False
   support = 0
   oppose = 0
