@@ -5,7 +5,7 @@ Skin cancer is more common with increasing age and in those with blue/grey eyes.
 Sunlight is essential to many living things.,irrelevant,neutral
 But sunlight also has a dangerous side.,irrelevant,neutral
 "Over time UV radiation exposure, whether or not associated with sunburn, accelerates skin ageing making it look dry, wrinkled, loose and dull and causing pigment changes commonly known as âage spotsâ.",relevant,support
-"It can also cause changes in the skin cells, which may lead to skin cancer.",irrelevant,neutral
+"It can also cause changes in the skin cells, which may lead to skin cancer.",relevant,neutral
 Getting too much sun can lead to skin cancer.,relevant,support
 "But getting too little sun also can be risky, especially in regions with limited sunshine, a study suggests.",irrelevant,neutral
 "Women who avoided the sun were twice as likely to die from any cause, including skin cancer, as those who had the greatest sun exposure, according to a report in the July issue of the Journal of Internal Medicine.",relevant,support
@@ -32,10 +32,10 @@ The only skin cancer which we really need to be concerned with is melanoma.,irre
 The other skin cancers - basal cell and squamous cell carcinomas - can be caught in a relatively early stage and are very rarely fatal.,irrelevant,support
 Excessive  sun  can exposure cause skin cancer.,relevant,support
 "However, an appropriate amount of sunshine actually prevents cancer.",relevant,support
-"Exposure to sunshine provides many health benefits, such as promoting the formation of vitamin D.",irrelevant,neutral
+"Exposure to sunshine provides many health benefits, such as promoting the formation of vitamin D.",relevant,neutral
 "If we don't get a regular dose of sunshine, our health will suffer in many ways, one of which is depression.""",relevant,neutral
-We should not have excessive exposure to the sun as it is dangerous.,irrelevant,oppose
-"However, one should be outdoors for 1 hour per day if possible.",relevant,support
+We should not have excessive exposure to the sun as it is dangerous.,relevant,oppose
+"However, one should be outdoors for 1 hour per day if possible.",irrelevant,support
 Sunscreens  can prevent the most common types of skin cancer - squamous cell and basal cell carcinomas.,relevant,support
 "But studies have failed to show clear evidence that sunscreens help prevent melanoma, the more rare but deadly type of skin cancer, according to researchers at the Memorial Sloan-Kettering Cancer Center in New York.",relevant,support
 It thus appears that getting MODERATE sun exposure is of the utmost importance.,irrelevant,neutral
@@ -45,13 +45,13 @@ Most skin cancers are caused by exposure to the sun.,relevant,support
 A history of sunburn increases the risk of BCC.,irrelevant,neutral
 Risk is especially high if you had several episodes of sunburn in childhood.,irrelevant,neutral
 This has also been linked to SCC in some studies.,irrelevant,neutral
-The risk of SCC is mainly linked to overall sun exposure through your life.,irrelevant,neutral
+The risk of SCC is mainly linked to overall sun exposure through your life.,relevant,neutral
 This is also linked with BCC but to a lesser degree.,irrelevant,neutral
 "The link with long term exposure to the sun means that outdoor workers, such as farm workers, gardeners and building site workers, have an increased risk of non melanoma skin cancer.",relevant,support
 "Fair skinned people, with light coloured hair and eyes, or those more likely to burn than tan, are more at risk of skin cancer.",irrelevant,neutral
 Most skin cancers are caused by exposure to the sun.,relevant,support
 "This may be long term exposure, or short periods of intense sun exposure and burning.",irrelevant,neutral
-The ultraviolet light in sunlight damages the DNA in the skin cells.,relevant,support
+The ultraviolet light in sunlight damages the DNA in the skin cells.,relevant,neutral
 This damage can happen years before a cancer develops.,relevant,neutral
 The sunâs rays contain 3 types of ultraviolet light.,irrelevant,neutral
 UVA makes up most of our natural sun light.,irrelevant,neutral

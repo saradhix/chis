@@ -83,7 +83,7 @@ def main():
 
   print "Number of features=",len(features)
   model = Sequential()
-  model.add(Dense(120, input_dim=len(features), init='uniform', activation='relu'))
+  model.add(Dense(180, input_dim=len(features), init='uniform', activation='relu'))
   model.add(Dense(8, init='uniform', activation='relu'))
   model.add(Dense(1, init='uniform', activation='sigmoid'))
   # Compile model
@@ -96,7 +96,7 @@ def main():
   print "Running predictions for support"
 
   model2 = Sequential()
-  model2.add(Dense(150, input_dim=len(features), init='uniform'))
+  model2.add(Dense(180, input_dim=len(features), init='uniform'))
   model2.add(Activation('tanh'))
   model2.add(Dropout(0.5))
   model2.add(Dense(150, init='uniform'))

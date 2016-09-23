@@ -19,17 +19,17 @@ support_words=['causal', 'measles', 'development','suppress',
 oppose_words=['however', 'though',
           'whereas', 'nonetheless', 'yet',
           'despite',]
-reverse_words = ['oppose','does not','least', 'less','nothing','except',
+reverse_words = ['oppose','does','not','least', 'less','nothing','except',
         'decreased','never','although','inverse','weak','lowest', 'harmless' ]
 
-syn1 = ['this','vaccine','mmr', 'measles mumps and rubella',
+syn1 = ['this','vaccine','mmr', 'measlesi', 'mumps','rubella',
         'measles vaccination','thimerosal','vaccin', 'immun',
-        'measles mumps or rubella','mercury']
+        'mercury']
 
 syn2 = ['autism','asd','autistic','disorder','incidence', 'outcome','deficit',
-        'risk','disease','development','problem','autistic spectrum disorders',
+        'risk','disease','development','problem','autistic', 'spectrum', 'disorders',
         'neurotoxic']
-features = support_words + oppose_words + reverse_words + syn1 + syn2
+features = set(support_words + oppose_words + reverse_words + syn1 + syn2)
 def main():
 
   train_filename = 'MMRVaccineLeadToAutism_final.txt'

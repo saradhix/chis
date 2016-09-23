@@ -16,7 +16,7 @@ support_words=['because', 'therefore', 'after',
           'since', 'when', 'assuming',
           'so', 'accordingly', 'thus', 'hence',
           'then', 'consequently', 'increase', 'intense','cause','evidence',
-'increased','harmful','develops','exposed','exposure','causes','associated','more common',
+'increased','harmful','develops','exposed','exposure','causes','associated','more','common',
 'postulated','proven']
 oppose_words=['however', 'though',
           'whereas', 'nonetheless', 'yet',

@@ -11,26 +11,26 @@ import csv
 # fix random seed for reproducibility
 seed = 0 
 numpy.random.seed(seed)
-support_words=['safe', 'therefore', 'healthier', 'harmless', 'reduced', 'assuming',
+support_words=['safe', 'therefore', 'healthier', 'harmless', 'reduc', 'assuming',
                'accordingly', 'thus', 'hence', 'then', 'consequently', 'increase',
                'intense','cause','evidence', 'increased','harmful','develops',
-               'exposed','exposure','causes','associated','more common', 'postulated','proven']
+               'exposed','exposure','causes','associated','more','common', 'postulated','proven']
 oppose_words=['however', 'though',
           'whereas', 'nonetheless', 'yet',
-          'despite',]
+          'despite','recommend']
 reverse_words = ['oppose','does not','least', 'less','nothing','except',
         'decreased','never','although','inverse','weak','lowest', 'cannot',
-        'cause','damage', 'harmful','increased risk','harms','adverse',
-        'negative effects','accident','hazard','poison','prohibit','explosion',
-        'overdose','dangerous','potential risks','addiction','carcino',
-        'concerns','deadly','formaldehyde','popcorn','risk of cancer',
-        'irritate','anxiety' ]
+        'cause','damage', 'harmful','increased','risk','harms','adverse',
+        'negative','effects','accident','hazard','poison','prohibit','explosion',
+        'overdose','dangerous','potentiali','addict','carcino',
+        'concern','safety', 'deadly','formaldehyde','popcorn','cancer','disease',
+        'irritate','anxiety','how safe','serious','died','improper','explosion' ,'high','unknown','lung']
 
 syn1=['ecigarette','ecigarettes','vaping','nicotine','liquid','toxic','aldehyde',
       'cigarettes','diacetyl','exposure','vaper','ecig','inhal','vapor','cancer',
-      'carcin', 'electronic cigarette','solarium']
+      'carcin', 'electronic', 'cigarette','solarium']
 
-features = support_words + oppose_words + reverse_words + syn1
+features = set(support_words + oppose_words + reverse_words + syn1)
 def main():
 
   train_filename = 'ecigarettes_final.txt'
