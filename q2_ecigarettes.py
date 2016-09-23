@@ -2,81 +2,159 @@ import os
 import re
 import utils
 import sys
+from keras.models import Sequential
+from keras.layers import Dense
+from keras.layers import Dense, Dropout, Activation
+from keras.optimizers import SGD
+import numpy
+import csv
+# fix random seed for reproducibility
+seed = 0 
+numpy.random.seed(seed)
+support_words=['safe', 'therefore', 'healthier', 'harmless', 'reduced', 'assuming',
+               'accordingly', 'thus', 'hence', 'then', 'consequently', 'increase',
+               'intense','cause','evidence', 'increased','harmful','develops',
+               'exposed','exposure','causes','associated','more common', 'postulated','proven']
+oppose_words=['however', 'though',
+          'whereas', 'nonetheless', 'yet',
+          'despite',]
+reverse_words = ['oppose','does not','least', 'less','nothing','except',
+        'decreased','never','although','inverse','weak','lowest', 'cannot',
+        'cause','damage', 'harmful','increased risk','harms','adverse',
+        'negative effects','accident','hazard','poison','prohibit','explosion',
+        'overdose','dangerous','potential risks','addiction','carcino',
+        'concerns','deadly','formaldehyde','popcorn','risk of cancer',
+        'irritate','anxiety' ]
 
+syn1=['ecigarette','ecigarettes','vaping','nicotine','liquid','toxic','aldehyde',
+      'cigarettes','diacetyl','exposure','vaper','ecig','inhal','vapor','cancer',
+      'carcin', 'electronic cigarette','solarium']
+
+features = support_words + oppose_words + reverse_words + syn1
 def main():
 
-  filename = 'ecigarettes_final.txt'
+  train_filename = 'ecigarettes_final.txt'
+  test_filename = 'ecigarettes_test.txt'
+  results_filename = 'results/ecigarettes_result.csv'
 
-  fd = open(filename,'r')
+  fd = open(train_filename,'r')
   num_samples = 0
   num_correct = 0
   num_supp_correct = 0
-  supp_dict={}
-  opp_dict = {}
-  neut_dict = {}
+
+  X=[]
+  y1=[]
+  y2=[]
 
   for line in fd:
     (document, relevance, support) = line.split('\t')
     relevance = relevance.strip()
     support = support.strip()
     document = preprocess_doc(document)
-    (pred_rel, pred_supp) = classify_doc(document)
-    if pred_rel == relevance:
-      num_correct = num_correct + 1
-    if pred_supp == support:
-      num_supp_correct = num_supp_correct + 1
-    num_samples = num_samples + 1
-    print  num_samples, document, "PR=",pred_rel, "AR=", relevance, "PS=", pred_supp, "AS=", support
-    print "-"*30
-  accuracy = num_correct / float(num_samples)
-  supp_accuracy = num_supp_correct / float(num_samples)
-  print accuracy, supp_accuracy
 
-def get_support(document, relevance):
-  support_words=['safe', 'therefore', 'healthier',
-          'harmless', 'reduced', 'assuming',
-          'accordingly', 'thus', 'hence',
-          'then', 'consequently', 'increase', 'intense','cause','evidence',
-'increased','harmful','develops','exposed','exposure','causes','associated','more common',
-'postulated','proven']
-  
-  oppose_words=['however', 'though',
-          'whereas', 'nonetheless', 'yet',
-          'despite',]
+    current_x = make_x(document)
 
-  reverse_words = ['no ',' no ','oppose',' not ', 'does not','least', 'less','nothing','except','decreased','never','although','inverse','weak','lowest', 'cannot', 'cause','damage', 'harmful','increased risk','harms','adverse','negative effects','accident','hazard','poison','prohibit','explosion','overdose','dangerous','potential risks','addiction','carcino','concerns','deadly','formaldehyde','popcorn','risk of cancer','irritate','anxiety' ]
-  reverse = False
-  support = 0
-  oppose = 0
-  if relevance == "irrelevant":
+    print current_x
+    if relevance == "relevant":
+      current_y1=1
+    else:
+      current_y1=0
+    if support == "oppose":
+      current_y2 = [1,0,0];
+    if support == "neutral":
+      current_y2 = [0,1,0];
+    if support == "support":
+      current_y2 = [0,0,1]
+
+    X.append(current_x)
+    y1.append(current_y1)
+    y2.append(current_y2)
+  fd.close()
+  X = numpy.array(X)
+  y1 = numpy.array(y1)
+  y2 = numpy.array(y2)
+  print X.shape
+  print y1.shape
+  print y2.shape
+
+  print "Number of features=",len(features)
+  model = Sequential()
+  model.add(Dense(120, input_dim=len(features), init='uniform', activation='relu'))
+  model.add(Dense(8, init='uniform', activation='relu'))
+  model.add(Dense(1, init='uniform', activation='sigmoid'))
+  # Compile model
+  model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
+  # Fit the model
+  model.fit(X, y1, nb_epoch=150, batch_size=10)
+  # evaluate the model
+  scores = model.evaluate(X, y1)
+  print("%s: %.2f%%" % (model.metrics_names[1], scores[1]*100))
+  print "Running predictions for support"
+
+  model2 = Sequential()
+  model2.add(Dense(150, input_dim=len(features), init='uniform'))
+  model2.add(Activation('tanh'))
+  model2.add(Dropout(0.5))
+  model2.add(Dense(150, init='uniform'))
+  model2.add(Activation('tanh'))
+  model2.add(Dropout(0.5))
+  model2.add(Dense(3, init='uniform'))
+  model2.add(Activation('softmax'))
+
+  #sgd = SGD(lr=0.1, decay=1e-6, momentum=0.9, nesterov=True)
+  #model2.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy'])
+  model2.compile(loss='categorical_crossentropy', optimizer='adadelta', metrics=['accuracy'])
+
+  model2.fit(X, y2, nb_epoch=150, batch_size=10)
+  score = model2.evaluate(X, y2, batch_size=10)
+  print("%s: %.2f%%" % (model2.metrics_names[1], score[1]*100))
+
+  #Do predictions on test
+  X=[]
+  y1=[]
+  y2=[]
+  documents=[]
+  fd = open(test_filename,'r')
+  for line in fd:
+    document = line.strip()
+    documents.append(document)
+    document = preprocess_doc(document)
+    current_x = make_x(document)
+    X.append(current_x)
+
+  relevances = model.predict(X)
+  supports = model2.predict(X)
+
+  relevances = [int(round(x)) for x in relevances]
+  print relevances
+  new_supports = [0 for i in supports]
+  for (i,support) in enumerate(supports):
+    new_supports[i] = vec_to_class(support)
+  print new_supports
+
+  fd = open(results_filename,'w')
+  datawriter = csv.writer(fd)
+  for (i,document) in enumerate(documents):
+    datawriter.writerow([document, label_name_y1(relevances[i]), label_name_y2(new_supports[i])])
+
+
+def vec_to_class(support):
+  support = support.tolist()
+  return support.index(max(support))
+
+def label_name_y1(label):
+  if label==0:
+    return "irrelevant"
+  else:
+    return "relevant"
+
+def label_name_y2(label):
+  if label==0:
+    return "oppose"
+  elif label==1:
     return "neutral"
-
-  for word in support_words:
-    if word in document:
-      print word ,"present->Support"
-      support = support + 1 
-
-  for word in oppose_words:
-    if word in document:
-      print word ,"present->Oppose"
-      oppose = oppose + 1
-  
-  for word in reverse_words:
-    if word in document:
-      print word,"Reversed meaning", "s=",support,"o=",oppose
-      reverse=True
-  if reverse and oppose:
+  else:
     return "support"
-  if reverse and support:
-    return "oppose"
-
-  if support:
-    return "support"
-  if oppose:
-    return "oppose"
-
-  return "neutral"
-
 
 
 def preprocess_doc(doc):
@@ -87,33 +165,13 @@ def preprocess_doc(doc):
 
   #Special character removal
   doc = re.sub('\W+', ' ', doc)
-  doc = doc.replace('eciggarette','ecigarette')
-  doc = doc.replace('e cig','ecig')
-  doc = doc.replace(' s ','s ')
   return doc
 
-def classify_doc(document):
-  groups = ['ecigarettes',]
-
-  synonyms={}
-
-  synonyms['ecigarettes']=['ecigarette','ecigarettes','vaping','nicotine','liquid','toxic','aldehyde',
-          'cigarettes','diacetyl','exposure','vaper','ecig','inhal','vapor','cancer','carcin',
-          'electronic cigarette','solarium']
-  q = 'does sun exposure cause skin cancer'
-  sim=0
-  for word in groups:
-    for syn in synonyms[word]:
-      if syn in document:
-          sim = sim + 1
-          #print syn
-          break
-    if sim >=1:
-      pred_rel = "relevant"
-    else:
-      pred_rel = "irrelevant"
-    pred_supp = get_support(document, pred_rel)
-  return (pred_rel, pred_supp)
-
+def make_x(document):
+  current_x = [0 for f in features]
+  for (i, feature) in enumerate(features):
+    if feature in document:
+      current_x[i]=1
+  return current_x
 if __name__ == "__main__":
   main() 
