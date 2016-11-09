@@ -8,6 +8,9 @@ from keras.layers import Dense, Dropout, Activation
 from keras.optimizers import SGD
 import numpy
 import csv
+import rel_sup
+from sklearn.metrics import classification_report, confusion_matrix
+
 # fix random seed for reproducibility
 seed = 0 
 numpy.random.seed(seed)
@@ -133,6 +136,13 @@ def main():
   for (i,support) in enumerate(supports):
     new_supports[i] = vec_to_class(support)
   print new_supports
+  (true_rel, true_sup) = rel_sup.get_rel_sup('q5_rel.txt', 'q5_sup.txt')
+  print len(true_rel), len(true_sup)
+  print confusion_matrix(true_rel, relevances)
+  print classification_report(true_rel, relevances)
+
+  print confusion_matrix(true_sup, new_supports)
+  print classification_report(true_sup, new_supports)
 
   fd = open(results_filename,'w')
   datawriter = csv.writer(fd)
