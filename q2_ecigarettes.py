@@ -39,7 +39,7 @@ def main():
   test_filename = 'ecigarettes_test.txt'
   results_filename = 'results/ecigarettes_result.csv'
 
-  fd = open(train_filename,'r')
+  fd = open(train_filename,encoding="latin-1")
   num_samples = 0
   num_correct = 0
   num_supp_correct = 0
@@ -56,7 +56,7 @@ def main():
 
     current_x = make_x(document)
 
-    print current_x
+    print( current_x)
     if relevance == "relevant":
       current_y1=1
     else:
@@ -75,11 +75,11 @@ def main():
   X = numpy.array(X)
   y1 = numpy.array(y1)
   y2 = numpy.array(y2)
-  print X.shape
-  print y1.shape
-  print y2.shape
+  print( X.shape)
+  print( y1.shape)
+  print( y2.shape)
 
-  print "Number of features=",len(features)
+  print( "Number of features=",len(features))
   model = Sequential()
   model.add(Dense(120, input_dim=len(features), init='uniform', activation='relu'))
   model.add(Dense(8, init='uniform', activation='relu'))
@@ -91,7 +91,7 @@ def main():
   # evaluate the model
   scores = model.evaluate(X, y1)
   print("%s: %.2f%%" % (model.metrics_names[1], scores[1]*100))
-  print "Running predictions for support"
+  print( "Running predictions for support")
 
   model2 = Sequential()
   model2.add(Dense(150, input_dim=len(features), init='uniform'))
@@ -127,19 +127,19 @@ def main():
   relevances = model.predict(X)
   supports = model2.predict(X)
 
-  relevances = [int(round(x)) for x in relevances]
-  print relevances
+  relevances = [int(x+0.5) for x in relevances]
+  print( relevances)
   new_supports = [0 for i in supports]
   for (i,support) in enumerate(supports):
     new_supports[i] = vec_to_class(support)
-  print new_supports
+  print( new_supports)
   (true_rel, true_sup) = rel_sup.get_rel_sup('q2_rel.txt', 'q2_sup.txt')
-  print len(true_rel), len(true_sup)
-  print confusion_matrix(true_rel, relevances)
-  print classification_report(true_rel, relevances)
+  print( len(true_rel), len(true_sup))
+  print( confusion_matrix(true_rel, relevances))
+  print( classification_report(true_rel, relevances))
 
-  print confusion_matrix(true_sup, new_supports)
-  print classification_report(true_sup, new_supports)
+  print( confusion_matrix(true_sup, new_supports))
+  print( classification_report(true_sup, new_supports))
   fd = open(results_filename,'w')
   datawriter = csv.writer(fd)
   for (i,document) in enumerate(documents):
