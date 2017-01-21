@@ -32,7 +32,32 @@ q2['gold_sup']='q2_sup.txt'
 q2['features']=['less', 'yet', 'causes', 'inverse', 'except', 'harmless', 'postulated', 'decreased', 'then', 'risk', 'safe', 'ecigarettes', 'cannot', 'effects', 'despite', 'vaping', 'vaper', 'common', 'lung', 'prohibit', 'nicotine', 'exposed', 'concern', 'poison', 'increase', 'safety', 'assuming', 'cause', 'explosion', 'never', 'weak', 'however', 'carcin', 'although', 'does not', 'intense', 'accident', 'cigarette', 'healthier', 'oppose', 'popcorn', 'consequently', 'cancer', 'ecigarette', 'improper', 'carcino', 'least', 'electronic', 'unknown', 'solarium', 'negative', 'irritate', 'accordingly', 'therefore', 'recommend', 'diacetyl', 'more', 'lowest', 'formaldehyde', 'overdose', 'anxiety', 'harms', 'dangerous', 'associated', 'thus', 'proven', 'evidence', 'high', 'increased', 'nonetheless', 'deadly', 'whereas', 'damage', 'adverse', 'aldehyde', 'toxic', 'ecig', 'inhal', 'though', 'potentiali', 'hazard', 'harmful', 'hence', 'develops', 'addict', 'nothing', 'how safe', 'died', 'exposure', 'reduc', 'liquid', 'disease', 'cigarettes', 'serious', 'vapor']
 q2['name']='E cigarettes'
 
-datasets=[q1,q2]
+q3={}
+q3['train_file_name']='MMRVaccineLeadToAutism_final.txt'
+q3['test_file_name']='MMRVaccineLeadToAutism_test.txt'
+q3['gold_rel']='q3_rel.txt'
+q3['gold_sup']='q3_sup.txt'
+q3['features']=['exhibit', 'lowest', 'associated', 'less', 'measlesi', 'abnormal', 'spectrum', 'evidence', 'nothing', 'measles vaccination', 'neurotoxic', 'yet', 'autism', 'risk', 'mercury', 'inverse', 'develop', 'disorders', 'nonetheless', 'whereas', 'disease', 'more common', 'least', 'causal', 'increase', 'harmless', 'causing', 'mumps', 'factor', 'thimerosal', 'decreased', 'cause', 'except', 'suppress', 'deficit', 'development', 'rubella', 'immun', 'increased', 'though', 'measles', 'never', 'weak', 'however', 'asd', 'mmr', 'side effect', 'link', 'although', 'despite', 'not', 'true', 'vaccine', 'exposure', 'heightened', 'autistic', 'this', 'vaccin', 'oppose', 'does', 'incidence', 'problem', 'outcome', 'disorder']
+q3['name']='Does MMR vaccine lead to autism'
+
+q4={}
+q4['train_file_name']='vitaminC_common_cold_final.txt'
+q4['test_file_name']='vitaminC_common_cold_test.txt'
+q4['gold_rel']='q4_rel.txt'
+q4['gold_sup']='q4_sup.txt'
+q4['features']=['shorten', 'reduction', 'benefit', 'help prevent cold', 'shorter illness', 'alleviate', 'neutral', 'ward off', 'halve', 'slash', 'reduce', 'prevented', 'manage', 'protective', 'reduc', 'decrease', 'stopped', 'wards off', 'most useful', 'lower', 'most effective', 'effective agent', 'fewer cold', 'less severe', 'fighting off', 'take plenty', ' mg', 'strengthens', 'lessens', 'dry up', 'beneficial', 'fighting', 'still high', 'modest', 'liveli', 'preventive', 'strengthen', 'improve', 'cut their risk', 'stop cancer', 'half', 'may be effective', 'wrong', 'doubt', 'questionable', 'no benefit', 'zinc', 'no effect', 'no difference', 'wont help', 'no evidence', 'but not', 'did not', 'not show', 'doesnt', 'isnt', 'does not', 'little', 'not the best', 'not help', 'will not', 'disagree', 'unsupported', 'or not', 'not worth', 'not necessary', 'nor is', 'he same', 'but only for', 'has not been', 'inconclusive', 'nausea', 'diarrhea', 'dangerous', 'is not an', 'debunk', 'similar symptoms', 'do not recommend', 'do not prove', 'not effective', 'didnt help', 'alas', 'didnt', 'possibly', 'disappointing', 'unjustified', 'small', 'unlikely', 'nor', 'aren', 'this', 'vitamin', 'zinc', 'dose', 'placebo', 'grams', 'intake', 'fruits and vegetables', ' it ', 'antiox', 'supplement', 'consumed', 'mg ', 'reduction', 'myth', 'this', 'cold', 'common cold', 'flu', 'illness', 'sniffles', 'immun', 'sick', 'throat', 'nose', 'effect', 'viral', 'nausea', 'diabetes', 'evidence', 'benefit']
+q4['name']='Does Vitamin C reduce common cold'
+
+q5={}
+q5['train_file_name']='women_should_Take_HRT_Post_Menopause_final.txt'
+q5['test_file_name']='women_should_Take_HRT_Post_Menopause_test.txt'
+q5['gold_rel']='q5_rel.txt'
+q5['gold_sup']='q5_sup.txt'
+q5['features']=['did not find any increase', 'no increase', 'good choice', 'less the increase', 'no evidence', 'flawed', 'counteract', 'benefits', 'not increase', 'alleviate', 'standard', 'good choice', 'neutral', 'ward off', 'slash', 'prevented', 'manage', 'protective', 'reduc', 'decrease', 'wards off', 'most useful', 'lower', 'most effective', 'effective agent', 'fewer cold', 'fighting off', 'take plenty', ' mg', 'strengthens', 'lessens', 'dry up', 'fighting', 'still high', 'liveli', 'preventive', 'strengthen', 'improve', 'cut their risk', 'stop cancer', 'half', 'may be effective', 'outweigh', 'risk', 'small', 'disease', 'alarming', 'deadly', 'not be used', 'stopping', 'inadvisable', 'cause pain', 'bothersome', 'nonhormonal', 'side effects', 'less likely', 'not help', 'no longer', 'more difficult', 'modest increase', 'cancer', 'collapse', 'more health risk', 'ineffective', 'not prevent', 'not beneficial', 'adverse', 'appears', 'not be a good choice', 'unlikely', 'aren', 'none', 'this', 'hrt', 'hormone', 'progestin', 'estrogen', 'dose', 'menopaus', 'cancer', ' it ', 'antiox', 'supplement', 'consumed', 'mg ', 'reduction', 'myth', 'this', 'menopause', 'common cold', 'flu', 'illness', 'sniffles', 'immun', 'sick', 'throat', 'nose', 'effect', 'viral', 'nausea', 'diabetes', 'evidence', 'benefit']
+q5['name']='Should women take HRT post menopause'
+
+datasets=[q1,q2,q3,q4,q5]
+
 def main():
   print "Running all tests"
   for dataset in datasets:
