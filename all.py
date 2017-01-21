@@ -24,9 +24,15 @@ q1['gold_sup']='q1_sup.txt'
 q1['features']=['because', 'therefore', 'after', 'since', 'when', 'assuming', 'so', 'accordingly', 'thus', 'hence', 'then', 'consequently', 'increase', 'intense', 'cause', 'evidence', 'increased', 'harmful', 'develops', 'exposed', 'exposure', 'causes', 'associated', 'more', 'common', 'postulated', 'proven', 'however', 'though', 'whereas', 'nonetheless', 'yet', 'despite', 'no ', ' no ', 'oppose', ' not ', 'does not', 'least', 'less', 'nothing', 'except', 'decreased', 'never', 'although', 'inverse', 'weak', 'lowest', 'sun', 'sunlight', 'uv', 'uva', 'uvb', 'sunbathers', 'sunburns', 'sunburn', 'exposure', 'sunbather', 'indoor', 'radiation', 'outdoors', 'outside', 'temperature', 'light', 'solarium', 'skinned', 'burn', 'melanoma', 'melanomas', 'damages', 'causes', 'exposure', 'this', 'skin', 'cancer', 'melanoma', 'melanomas', 'cancerous', 'carcinoma', 'health problem', 'this']
 q1['name']='Cancer: Does sun exposure cause skin_cancer'
 
+q2={}
+q2['train_file_name']='ecigarettes_final.txt'
+q2['test_file_name']='ecigarettes_test.txt'
+q2['gold_rel']='q2_rel.txt'
+q2['gold_sup']='q2_sup.txt'
+q2['features']=['less', 'yet', 'causes', 'inverse', 'except', 'harmless', 'postulated', 'decreased', 'then', 'risk', 'safe', 'ecigarettes', 'cannot', 'effects', 'despite', 'vaping', 'vaper', 'common', 'lung', 'prohibit', 'nicotine', 'exposed', 'concern', 'poison', 'increase', 'safety', 'assuming', 'cause', 'explosion', 'never', 'weak', 'however', 'carcin', 'although', 'does not', 'intense', 'accident', 'cigarette', 'healthier', 'oppose', 'popcorn', 'consequently', 'cancer', 'ecigarette', 'improper', 'carcino', 'least', 'electronic', 'unknown', 'solarium', 'negative', 'irritate', 'accordingly', 'therefore', 'recommend', 'diacetyl', 'more', 'lowest', 'formaldehyde', 'overdose', 'anxiety', 'harms', 'dangerous', 'associated', 'thus', 'proven', 'evidence', 'high', 'increased', 'nonetheless', 'deadly', 'whereas', 'damage', 'adverse', 'aldehyde', 'toxic', 'ecig', 'inhal', 'though', 'potentiali', 'hazard', 'harmful', 'hence', 'develops', 'addict', 'nothing', 'how safe', 'died', 'exposure', 'reduc', 'liquid', 'disease', 'cigarettes', 'serious', 'vapor']
+q2['name']='E cigarettes'
 
-
-datasets=[q1]
+datasets=[q1,q2]
 def main():
   print "Running all tests"
   for dataset in datasets:
